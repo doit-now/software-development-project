@@ -1,0 +1,148 @@
+CHUẨN BỊ CHO VIỆC LÀM APP
+1. XÁC ĐỊNH APP CỦA MÌNH LÀ 1 SÀN GIAO DỊCH HAY LÀ 1 CHỦ THỂ ĐƠN LẺ
+                                 (platform)                                (1 company, 1 shop)
+                                trăm người bán                                một người bán
+                                vạn người mua                                 vạn người mua
+                                CHỢ                                           1 CỬA TIỆM
+                                Shopee, Lazada, Beamin                   TGDD, FPT Shop, DidongViet
+                                Grab   
+                                phức tạp thêm tính năng do
+                                có nhiều đối tác tham gia!!!
+
+2. MUA/DOWNLOAD/TÌM VÀ ĐỘ SẴN LAYOUT CHO
+
+- END-USER, GUEST/CUSTOMER: ĐẸP, BẮT MẮT, HIỆU ỨNG
+
+- ADMIN, PHẦN QUẢN TRỊ HẬU TRƯỜNG: KO CẦN QUÁ ĐẸP, CHỈ CẦN ĐƠN GIẢN ĐỂ CRUD DATA
+
+- GOOGLE KEYWORD: "top ui components library 2023"
+ 
+3. NHỮNG LƯU Ý CHO CÁC TÍNH NĂNG
+* Nhập liệu/màn hình tạo mới 1 cái gì đó, tạo mới 1 công thức nấu ăn, gói thuê xe, 1 sản phẩm nước yến, tạo mới 1 event...
+- Text area, input text -> dữ liệu hiển thị thuần text, ko đẹp, ko phong phú
+- Rich text editor, màn hình nhập dữ liệu nó giống như MS Word, save thẳng HTML xuống field của database, TinyMCE, CKEditor... là những ví dụ để làm màn hình nhập liệu như Word
+
+* Import từ file Excel hay không; ta viết code đọc từng dòng của file Excel và insert vào database!!!
+
+* Upload ảnh/video: 
+            lưu ảnh video trên 1 thư mục của Tomcat/Webserver (database chỉ lưu tên tập tin)
+            lưu thẳng video/ảnh vào trong CSDL (BLOB column)
+            nhờ YouTube giữ giùm video, db của ta lưu URL
+            nhờ nền tảng lưu trữ thứ 3, Firebase, Amazon S3...
+* Login: 
+            username/password riêng của app (xưa rồi)
+            dùng email để login/password riêng (đang dùng)
+            dùng email account để login (Gmail trong FAP)
+            dùng các tài khoản MXH để login
+            số điện thoại login, pass chính là OTP mỗi lần đăng nhập
+            gửi email để verify account 
+            (app có tính năng gửi email Google
+             app phải xài 1 email Google để gửi đến email người khác!!!)
+             viết code để gửi email - account dùng để gửi vào mục Security của Google Mail
+                                                            enable chế độ: LESS SECURITY
+                                                            hạ tiêu chuẩn bảo mật của Gmail để dùng code gửi mail
+* Tích hợp chat vào trong App
+  - Tích hợp Messenger
+  - Nền tảng Chat trên mạng tích hợp vào trong code
+  - Tự viết (khoai) vì real-time, nhúng emoticon...
+
+* Chuông rung
+ - Sales login vào app thì góc phải trên màn hình/profile có chuông kèm ô nhỏ hiển thị con số (giống FB)
+   - hậu trường:
+          select * from Order where status trong khoảng nào đó và view_status = NO!!!
+          cột view_status = NO - default khi insert 1 Order
+          chuông (50) ~~~ select đc 50 dòng mới tinh và chưa duyệt qua
+          click chuông, update 50 dòng vừa rồi view_status = YES
+          trong danh sách của chuông chính là hyperlink
+  
+* Trạng thái Order, nên học các sàn
+    (1) -------------------- (2) ---------------------- (3) ------------------------- (4)
+   đặt hàng                   xử lí                  đóng gói                         giao hàng
+
+* Duyệt/Approve
+- App của ta có cần duyệt thông tin nào ko???
+  - 1 ông đầu bếp post 1 bài, có cần duyệt ko???
+  - 1 cmt có cần duyệt ko: muốn cmt BẮT BUỘC phải login
+                           ko  cần duyệt, để đảm bảo tuân thủ thì có nút REPORT
+  -  CƠ CHẾ TIỀN KIỂM          và HẬU KIỂM
+     kiểm tra trước            cứ lên đi, report xử lí sau
+     duyệt trước mới  
+     cho lên
+
+* CỔNG THANH TOÁN 
+- App có thanh toán qua ví!!!
+  MoMo, PayPal, VNPay, ZaloPay,...
+  các ví luôn có môi trường giả, tức là cho ta 2 account giả, có tiền để chuyển qua lại
+  vẫn xài app chính thức như bt, chỉ là account giả thôi - GỌI LÀ MÔI TRƯỜNG SANDBOX
+  SANDBOX có URL riêng, thường là sandbox.paypal.com
+- Gọi API của cổng thanh toán
+  Google:   "tích hợp PayPal vào website dùng Java" có code mẫu
+  thường các cổng thanh toán có GitHub vào lấy code mẫu
+ 
+* HỖ TRỢ ĐA NGÔN NGỮ!!! 
+- Có những kĩ thuật, ví dụ file resource/property lưu bộ nhãn/label cho từng ngôn ngữ
+  khác nhau, ví dụ:
+                       vi                en
+         menu1         đơn hàng        order
+         menu2         thanh toán     payment
+
+- Java là i18n
+  
+* VOURCHER
+- Generate QR, trong QR gồm thời gian sử dụng, trạng thái...
+
+* SÀN, THƯƠNG MẠI ĐIỆN TỬ/BÁN MUA
+- CHÍNH SÁCH/ĐIỀU KHOẢN SỬ DỤNG CHO CÁC BÊN (dưới đáy trang web)
+  - Nếu có chính sách đổi trả, thì cần có chỗ upload BẰNG CHỨNG KHUI HÀNG
+    bên sàn/cửa hàng thì có menu xem các KHIẾU NẠI...
+
+* NAVIGATION/SITE MAP
+- Các màn hình, đặc biệt là màn hình phía admin, quản trị, cần cho biết đang đứng ở
+  màn hình nào
+               Home > Order > Order details
+                    > Products > Edit Product
+
+* LOGO CỦA APP | COPY RIGHT | ĐỊA CHỈ LIÊN HỆ | CONTACT | MAP ĐỊA CHỈ
+
+* DASHBOARD !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+- Chính là màn hình dành cho dân quản trị, chủ shop, những người muốn xem thông
+  tin liên quan theo kiểu thống kê/gom nhóm/đồ thị
+  - Biểu đồ CHART: cột, sin, bánh show ra các số liệu gom nhóm:
+                                 đồ thị tăng trưởng user theo từng tháng   
+                                 doanh thu theo tuần, tháng, theo nhóm hàng, mặt hàng, khách hàng
+                                 số bài post theo tháng, tuần
+                                 số lượt view/react theo bài, theo...
+
+     HẬU TRƯỜNG: select count, sum, max, min, avg
+- Học cách hiển thị CHART trên trang web
+
+- Google: "dashboard for web app" 
+
+* PHẦN ADMIN HỆ THỐNG
+- Rất thường dùng màn hình có menu nằm bên tay trái, rộng khoảng 1/6 màn hình
+  Có các menu con bung rộng/thu hẹp/expand/colapse 
+
+- Search template/theme admin trên mạng
+
+* PHÂN TRANG/FILTER/CHIA TAB
+- Đừng hiển thị tất cả danh sách đơn hàng đang có, mà nên phân trang
+- Ít nhất là phải có sort theo ngày mới nhất ở trên cùng
+- Chia tab/menu: đơn mới, đơn cũ, đơn đã xong, đơn đang giao
+- Có bộ lọc (dropdown), header của table cho sort theo tiêu chí nào đó
+
+* VALIDATION TRÊN CÁC THÔNG TIN NHẬP VÀO
+- max length phải chặn
+- max value phải chặn: tiền ko cho nhập số quá quá to, số âm!!!
+- kiểm tra trùng khi nhập lại cái gì đó 2 lần
+            book lịch: nhiều người book cùng 1 giờ!!!   
+- ngày tháng
+    - ngày bắt đầu event: cách hiện tại vài ngày
+    - ngày kết thúc event: sau ngày bắt đầu
+- anh em phải ngồi tưởng tượng các ràng buộc có thể có và gài code!!!
+- RÀNG BUỘC GIỮA CÁC MÀN HÌNH, CHỨ KO CHỈ TRONG 1 MÀN HÌNH  
+   - Ví dụ khi xoá 1 user/customer, thì chỉ áp dụng cho customer chưa có đơn hàng   
+   - 1 bác sĩ 1 khung giờ khám chỉ khám tối đa 10 bệnh nhân đã book                   
+             người thứ 11 ko cho book
+
+    
+ 
