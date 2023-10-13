@@ -95,6 +95,7 @@ CHUẨN BỊ CHO VIỆC LÀM APP
 - CHÍNH SÁCH/ĐIỀU KHOẢN SỬ DỤNG CHO CÁC BÊN (dưới đáy trang web)
   - Nếu có chính sách đổi trả, thì cần có chỗ upload BẰNG CHỨNG KHUI HÀNG
     bên sàn/cửa hàng thì có menu xem các KHIẾU NẠI...
+- HOÀN TIỀN !!!  
 
 * NAVIGATION/SITE MAP
 - Các màn hình, đặc biệt là màn hình phía admin, quản trị, cần cho biết đang đứng ở
@@ -102,7 +103,7 @@ CHUẨN BỊ CHO VIỆC LÀM APP
                Home > Order > Order details
                     > Products > Edit Product
 
-* LOGO CỦA APP | COPY RIGHT | ĐỊA CHỈ LIÊN HỆ | CONTACT | MAP ĐỊA CHỈ
+* LOGO CỦA APP | COPYRIGHT | ĐỊA CHỈ LIÊN HỆ | CONTACT | MAP ĐỊA CHỈ
 
 * DASHBOARD !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
 - Chính là màn hình dành cho dân quản trị, chủ shop, những người muốn xem thông
@@ -133,6 +134,7 @@ CHUẨN BỊ CHO VIỆC LÀM APP
 * VALIDATION TRÊN CÁC THÔNG TIN NHẬP VÀO
 - max length phải chặn
 - max value phải chặn: tiền ko cho nhập số quá quá to, số âm!!!
+  DẤU PHÂN CÁCH PHẦN NGÀN KHI ĐANG NHẬP!!!!!!!!!!!!!!!!!
 - kiểm tra trùng khi nhập lại cái gì đó 2 lần
             book lịch: nhiều người book cùng 1 giờ!!!   
 - ngày tháng
