@@ -1,0 +1,712 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>AP</Author>
+  <LastAuthor>giao.lang</LastAuthor>
+  <Created>2023-09-05T08:09:07Z</Created>
+  <LastSaved>2023-09-05T08:55:00Z</LastSaved>
+  <Company>FPT University</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9072</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m1757126435840">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#E2EFDA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m1757126435880">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m1757126435920">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#E2EFDA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m1757126415248">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m1757126415288">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#E2EFDA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m1757126415328">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s63">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s78">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#E2EFDA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s94">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s95">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s96">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s107">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s108">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#E2EFDA" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1 (2)">
+  <Table ss:ExpandedColumnCount="14" ss:ExpandedRowCount="43" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.55">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="76.8"/>
+   <Column ss:AutoFitWidth="0" ss:Width="77.399999999999991"/>
+   <Column ss:AutoFitWidth="0" ss:Width="155.39999999999998"/>
+   <Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="77.399999999999991"/>
+   <Column ss:AutoFitWidth="0" ss:Width="84.600000000000009"/>
+   <Column ss:AutoFitWidth="0" ss:Width="76.2"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">No.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Class Name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RollNumber</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">FullName</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Group</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Project Name</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">% of Contribution</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Assigned Tasks</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SE160990</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Nguyễn Tuấn Lộc</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:MergeDown="4" ss:StyleID="m1757126415248"><Data ss:Type="String">SWP Projects On-Going Report</Data></Cell>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SE170585</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Phạm Bích Ngọc</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SE172108</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Cao Văn Tình</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SE172198</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Lâm Tấn Lộc</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SE172220</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Đặng Văn Hải</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SE172307</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Hồ Hữu Sơn</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:MergeDown="5" ss:StyleID="m1757126415288"><Data ss:Type="String">Nền tảng cung cấp các khóa học vẽ, mỹ thuật cho thiếu nhi</Data></Cell>
+    <Cell ss:StyleID="s108"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SE172315</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Đoàn Lê Hiển Minh</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s108"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SE172328</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Chu Vương Mạnh</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s108"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SE172295</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Nguyễn Đức Linh</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s108"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SE172288</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Nguyễn Trọng Thành Công</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s108"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SE172292</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Võ Minh Mẫn</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s108"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SE172230</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Nguyễn Xuân Việt</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:MergeDown="5" ss:StyleID="m1757126415328"><Data ss:Type="String">Nền tảng kết nối những người yêu thích chó mèo</Data></Cell>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SE172276</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Đỗ Văn Hiệp</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SE172277</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Vũ Lê Lâm Hoàng</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SE172303</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Nguyễn Quý Đức Minh</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SE172338</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Nguyễn Phương Nam</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SE172354</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Nguyễn Thành Công</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SE172437</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Nguyễn Vũ</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:MergeDown="4" ss:StyleID="m1757126435840"><Data ss:Type="String">Support learning of driver's license exams</Data></Cell>
+    <Cell ss:StyleID="s108"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SE172440</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Đỗ Hữu Việt Anh</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s108"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SE172247</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Võ Bá Nhật Trường</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s108"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SE172294</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Trương Hà Hào Nam</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s108"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SE172343</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Trần Nhựt Minh Tâm</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s108"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SE171024</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Vũ Long</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:MergeDown="4" ss:StyleID="m1757126435880"><Data ss:Type="String">Zoo Management Application</Data></Cell>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SE171517</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Tạ Vũ Thanh Vân</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SE171710</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Nguyễn Tiến Dũng</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SE171782</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Nguyễn Đức Sơn</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SE172011</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Vũ Minh Nhật</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SE170031</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Phạm Thanh Hiền</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:MergeDown="5" ss:StyleID="m1757126435920"><Data ss:Type="String">Academic blog at FPTU (Trang blog cho SV FPTU)</Data></Cell>
+    <Cell ss:StyleID="s108"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SE170198</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Lê Đại Nghĩa</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s108"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SE170203</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Nguyễn Trung Hậu</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s108"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SE170224</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Nguyễn Trường Thịnh</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s108"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SE172122</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Phạm Huy Anh Dũng</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s108"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NET1709</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SE172132</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Trương Đình Đông Dương</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s108"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Index="37" ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">NHÓM 1</Data></Cell>
+    <Cell><Data ss:Type="String">ĐỀ TÀI</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Zoom>160</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
